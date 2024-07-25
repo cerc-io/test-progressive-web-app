@@ -22,7 +22,7 @@ jobs:
       - name: "Install registry CLI"
         run: |
           npm config set @cerc-io:registry https://git.vdb.to/api/packages/cerc-io/npm/
-          npm install -g @cerc-io/laconic-registry-cli
+          npm install -g @cerc-io/laconic-registry-cli@0.1.13
       - name: "Install jq"
         run: apt -y update && apt -y install jq
       - name: "Publish Application Record"
