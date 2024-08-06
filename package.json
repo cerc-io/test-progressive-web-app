@@ -1,6 +1,6 @@
 {
   "name": "@cerc-io/test-progressive-web-app",
-  "version": "0.1.50",
+  "version": "0.1.51",
   "repository": "https://git.vdb.to/cerc-io/test-progressive-web-app",
   "scripts": {
     "dev": "next dev",
